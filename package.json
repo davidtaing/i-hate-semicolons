@@ -1,26 +1,27 @@
 {
-  "name": "",
-  "type": "module",
-  "version": "0.0.1",
+  "name": "i-hate-semicolons",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@astrojs/react": "^2.2.1",
-    "@astrojs/tailwind": "^4.0.0",
-    "@astrojs/vercel": "^3.8.0",
-    "@types/react": "^18.0.21",
-    "@types/react-dom": "^18.0.6",
-    "@vercel/node": "^2.15.8",
-    "astro": "^2.10.3",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "@types/node": "20.4.8",
+    "@types/react": "18.2.19",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.46.0",
+    "eslint-config-next": "13.4.13",
+    "next": "13.4.13",
+    "postcss": "8.4.27",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-tweet": "^3.0.4",
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "3.3.3",
+    "typescript": "5.1.6"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.9"
