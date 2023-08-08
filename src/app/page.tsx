@@ -1,3 +1,5 @@
+import { TweetWall } from "./TweetWall";
+
 export default function Home() {
   return (
     <main className="prose dark:prose-invert max-w-full m-auto p-4">
@@ -9,7 +11,7 @@ export default function Home() {
           >
         </h1>
         <p className="mt-7 mb-0">
-          This is where we'd put our value proposition.<br />
+          This is where we&apos;d put our value proposition.<br />
           If we had one.
         </p>
         <div className="mt-8 flex gap-6 justify-center">
@@ -46,9 +48,7 @@ export default function Home() {
       </div>
       <div className="text-center flex flex-col justify-center">
         <h1 className="mt-20 mb-0">Hated by Developers Across the World</h1>
-        <div className="">
-          {/* <TweetWall /> */}
-        </div>
+        <TweetWall />
       </div>
     </main>
   )
