@@ -1,6 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import 
+import { TweetWall } from "../components/TweetWall.tsx";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -50,6 +50,9 @@ import
     </div>
     <div class="text-center flex flex-col justify-center">
       <h1 class="mt-20 mb-0">Hated by Developers Across the World</h1>
+      <div class="">
+        <TweetWall />
+      </div>
     </div>
   </main>
 </Layout>
